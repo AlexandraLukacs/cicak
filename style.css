@@ -1,0 +1,72 @@
+.fejlec {
+    background-image: url(kepek/hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.tarolo {
+    width: 80%;
+    margin: auto;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.menu ul li {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(216, 115, 32);
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+.menu2 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.menu2 ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.menu2 ul li {
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.menu ul li a:hover {
+    background-color: white;
+    color: black;
+}
