@@ -7,7 +7,7 @@
 }
 
 .tarolo {
-    width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -69,4 +69,28 @@ a:hover {
 .menu ul li a:hover {
     background-color: white;
     color: black;
+}
+
+.menu3 {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.menu3 li {
+    text-align: left;
+}
+
+img{
+    width: 50%;
+    text-align: center;
+    border-radius: 30px;
+    margin: auto;
+    padding: 20px;
+}
+
+.img {
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
