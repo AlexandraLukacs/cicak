@@ -94,3 +94,17 @@ img{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.menu4 {
+    background-color: black;
+    color: white;
+}
+
+.doboz {
+    background-color: white;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 40%;
+    border-radius: 30px;
+}
