@@ -96,15 +96,26 @@ img{
 }
 
 .menu4 {
+    text-align: center;
     background-color: black;
     color: white;
 }
 
 .doboz {
-    background-color: white;
-    color: black;
+    margin: auto;
+    padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 40%;
-    border-radius: 30px;
+}
+
+li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.jatek {
+    background-color: white;
+    color: black;
+    width: 80%;
+    border-radius: 20px;
 }
